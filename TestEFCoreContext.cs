@@ -6,7 +6,7 @@ namespace TestEFCore
     {
         public TestEFCoreContext(DbContextOptions<TestEFCoreContext> builderOptions) : base(builderOptions)
         {
-            
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
